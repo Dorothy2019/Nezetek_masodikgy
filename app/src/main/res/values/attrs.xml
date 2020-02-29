@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ChoiceLayout">
+        <attr name="dividerType" format="enum">
+            <enum name="none" value="0" />
+            <enum name="simple_divider" value="1" />
+            <enum name="double_divider" value="2" />
+        </attr>
+        <attr name="multiple" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="PasswordEditText">
+        <reference name="picturePwd" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="pic" value="1"/>
+        </reference>
+    </declare-styleable>
+
+
+</resources>
