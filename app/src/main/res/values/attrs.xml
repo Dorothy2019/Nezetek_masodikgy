@@ -9,10 +9,7 @@
         <attr name="multiple" format="integer" />
     </declare-styleable>
     <declare-styleable name="PasswordEditText">
-        <reference name="picturePwd" format="enum">
-            <enum name="none" value="0"/>
-            <enum name="pic" value="1"/>
-        </reference>
+        <attr name="picturePwd" format="reference"></attr>
     </declare-styleable>
 
 
